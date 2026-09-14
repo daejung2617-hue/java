@@ -22,7 +22,7 @@ namespace _20260914
 
         static void Main(string[] args)
         {
-            Enum.enumExe1();
+            EnumExe1();
         }
         public static void EnumExe1() 
         {
@@ -46,7 +46,7 @@ namespace _20260914
                         gameState = GameState.Game;
                         break;
                     case GameState.Game:
-                        Console.WriteLine("게임 화면 출력, 현상태", gameState);
+                        Console.WriteLine("게임 화면 출력, 현상태" + gameState);
                         gameState = GameState.Exit;
                         break;
                     case GameState.Exit:
